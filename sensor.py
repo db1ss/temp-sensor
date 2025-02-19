@@ -74,6 +74,7 @@ def start_server():
                     "status": "ok"
                 }
                 response_json = json.dumps(data)
+                #response_json = "10.77"
 
                 led.on()
                 time.sleep(0.1)
